@@ -44,10 +44,10 @@ const CurrentWeather = () => {
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
-    backgroundColor: 'pink'
+    backgroundColor: 'lightblue'
   },
   container: {
-    backgroundColor: 'pink',
+    backgroundColor: 'lightblue',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
@@ -69,9 +69,9 @@ const styles = StyleSheet.create({
   },
   bodyWrapper: {
     justifyContent: 'flex-end',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     paddingLeft: 25,
-    marginBottom: 40
+    marginBottom: 200
   },
   description: {
     fontSize: 48
