@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Text, SafeAreaView, StyleSheet } from "react-native";
+import React from 'react';
+import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
 const CurrentWeather = () => {
@@ -16,43 +16,42 @@ const CurrentWeather = () => {
         </View>
       </View>
       <View style={styles.bodyWrapper}>
-        <Text style={styles.description}>It's sunny</Text>
-        <Text style={styles.message}>It's perfect t-shirt weather</Text>
+        <Text style={styles.description}>Its sunny</Text>
+        <Text style={styles.message}>Its perfect t-shirt weather</Text>
       </View>
     </SafeAreaView>
-    
   );
 };
 
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
-    backgroundColor: "pink"
+    backgroundColor: 'pink'
   },
   container: {
-    backgroundColor: "pink",
+    backgroundColor: 'pink',
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center"
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   temp: {
-    color: "black",
+    color: 'black',
     fontSize: 48
   },
   feels: {
     fontSize: 30,
-    color: "black"
+    color: 'black'
   },
   highLow: {
     fontSize: 20,
-    color: "black"
+    color: 'black'
   },
   highLowWrapper: {
-    flexDirection: "row",
+    flexDirection: 'row'
   },
   bodyWrapper: {
-    justifyContent: "flex-end",
-    alignItems: "flex-start",
+    justifyContent: 'flex-end',
+    alignItems: 'flex-start',
     paddingLeft: 25,
     marginBottom: 40
   },
@@ -64,4 +63,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CurrentWeather
+export default CurrentWeather;
